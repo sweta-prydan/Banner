@@ -1,0 +1,37 @@
+.middle-banner {
+  background: #171c3f;
+  height: 600px;
+  color: #fff;
+}
+
+.left-banner-header {
+  font-size: 45px;
+  padding-top: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.text {
+  max-width: 430px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.right-banner {
+  margin-top: 60px;
+  margin-left: -100px;
+}
+.object-animation {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: -15px;
+  }
+}
